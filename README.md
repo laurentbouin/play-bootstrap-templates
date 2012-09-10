@@ -1,7 +1,7 @@
 play-bootstrap-templates
 ========================
 
-Use  simple templates based on [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) within your Play! applications
+Use  simple templates based on [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) within your Play! applications.
 
 What's inside ? 
 ---------------
