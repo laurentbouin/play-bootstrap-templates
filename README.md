@@ -10,7 +10,7 @@ What's inside ?
 * JQuery - latest version
 * Two templates for your Play! applications
 
-![template](https://github.com/exploid/songster/raw/master/images/me-double-sidebyside.gif)
+![template](https://github.com/laurentbouin/play-bootstrap-templates/raw/master/documentation/img/template-leftMenu.png)
 
 
 
