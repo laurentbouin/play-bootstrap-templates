@@ -8,6 +8,11 @@ What's inside ?
 
 * Bootstrap for Twitter Version 2.1.1
 * JQuery - latest version
+* Two templates for your Play! applications
+
+![template](https://github.com/exploid/songster/raw/master/images/me-double-sidebyside.gif)
+
+
 
 Version
 ----------
