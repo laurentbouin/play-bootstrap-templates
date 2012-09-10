@@ -1,41 +1,39 @@
-play-bootstrap-templates
-========================
+h1. play-bootstrap-templates
 
-Use  simple templates based on [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) within your Play! applications.
+p(note) Use  simple templates based on [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) within your Play! applications.
 
-Version
-----------
+h2. Version
 
-The module uses the same [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) version number.
+p(note) The module uses the same [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) version number.
 
 
-What's inside ? 
+h2. What's inside ? 
 ---------------
 
-* [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) Version 2.1.1
-* [JQuery](http://jquery.com) - latest version
+* "Bootstrap for Twitter":http://twitter.github.com/bootstrap/ Version 2.1.1
+* "JQuery":http://jquery.com - latest version
 * Two templates for your Play! applications:
 
 ###Basic template
 
-![template](https://github.com/laurentbouin/play-bootstrap-templates/raw/master/documentation/img/template.png)
+!https://github.com/laurentbouin/play-bootstrap-templates/raw/master/documentation/img/template.png!
 
 ###Template with left menu
 
-![template-leftMenu](https://github.com/laurentbouin/play-bootstrap-templates/raw/master/documentation/img/template-leftMenu.png)
+!https://github.com/laurentbouin/play-bootstrap-templates/raw/master/documentation/img/template-leftMenu.png!
 
 Installation
 ------------
 
 In your `dependencies.yml` add the module
 
-    require
+pre.    require
         - play-bootstrap-templates -> bootstraptemplates 2.1.1    
 
 As `play-bootstrap-templates` is not in the Play! Repository, add a new repository in `dependencies.yml`
 
             
-    - github-lbo:
+pre.    - github-lbo:
         type:       http
         artifact:   "http://cloud.github.com/downloads/laurentbouin/play-bootstrap-templates/[module]-[revision].[ext]"
         contains:
