@@ -10,8 +10,13 @@ What's inside ?
 * JQuery - latest version
 * Two templates for your Play! applications
 
-![template](https://github.com/laurentbouin/play-bootstrap-templates/raw/master/documentation/img/template-leftMenu.png)
+*Basic template*
 
+![template](https://github.com/laurentbouin/play-bootstrap-templates/raw/master/documentation/img/template.png)
+
+*Template with left menu*
+
+![template](https://github.com/laurentbouin/play-bootstrap-templates/raw/master/documentation/img/template-leftMenu.png)
 
 
 Version
