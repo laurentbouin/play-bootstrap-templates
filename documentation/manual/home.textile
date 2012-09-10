@@ -1,29 +1,26 @@
 h1. play-bootstrap-templates
 
-p(note) Use  simple templates based on [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) within your Play! applications.
+Use  simple templates based on [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) within your Play! applications.
 
 h2. Version
 
-p(note) The module uses the same [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) version number.
-
+The module uses the same [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) version number.
 
 h2. What's inside ? 
----------------
 
 * "Bootstrap for Twitter":http://twitter.github.com/bootstrap/ Version 2.1.1
 * "JQuery":http://jquery.com - latest version
 * Two templates for your Play! applications:
 
-###Basic template
+*Basic template*
 
 !https://github.com/laurentbouin/play-bootstrap-templates/raw/master/documentation/img/template.png!
 
-###Template with left menu
+*Template with left menu*
 
 !https://github.com/laurentbouin/play-bootstrap-templates/raw/master/documentation/img/template-leftMenu.png!
 
-Installation
-------------
+h2. Installation
 
 In your `dependencies.yml` add the module
 
