@@ -13,7 +13,9 @@ What's inside ?
 ---------------
 
 * Bootstrap for Twitter Version 2.1.1
-* JQuery - latest version with '<script src="http://code.jquery.com/jquery-latest.js"></script>'
+* JQuery - latest version: 
+pre.    	    	<script src="http://code.jquery.com/jquery-latest.js"></script> 
+
 * Two templates for your Play! applications
 
 ###Basic template
