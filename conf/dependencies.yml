@@ -1,4 +1,4 @@
-self: play -> bootstraptemplates 0.1
+self: play -> bootstraptemplates 2.1.1
 
 require:
     - play
