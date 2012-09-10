@@ -1,10 +1,10 @@
 h1. play-bootstrap-templates
 
-p(note). Use  simple templates based on [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) within your Play! applications.
+p(note). Use  simple templates based on "Bootstrap for Twitter":http://twitter.github.com/bootstrap/ within your Play! applications.
 
 h2. Version
 
-p(note).The module uses the same [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) version number.
+p(note).The module uses the same "Bootstrap for Twitter":http://twitter.github.com/bootstrap/ version number.
 
 h2. What's inside ? 
 
