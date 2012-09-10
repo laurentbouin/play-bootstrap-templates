@@ -33,6 +33,7 @@ Usage
 In your `index.html` file change `#{extends 'main.html' /}` by: 
 
 `#{extends 'boot-template.html' /}` for the basic template
+
 `#{extends 'boot-template-leftmenu.html' /}` for the basic template
 
 
@@ -52,5 +53,12 @@ How to modify the left navbar
 -----------------------------
 
 * Copy the file `/modules/bootstraptemplate/app/views/tags/leftMenu.html` into `YOUR_APPLICATION/app/views/tags/leftMenu.html`
-* Modify it, enjoy ! 
+* Modify it, enjoy !
+
+
+How to modify the top navbar
+-----------------------------
+
+* Copy the file `/modules/bootstraptemplate/app/views/tags/navbar.html` into `YOUR_APPLICATION/app/views/tags/navbar.html`
+* Modify it, enjoy !  
 
