@@ -1,10 +1,10 @@
 h1. play-bootstrap-templates
 
-Use  simple templates based on [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) within your Play! applications.
+p(note). Use  simple templates based on [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) within your Play! applications.
 
 h2. Version
 
-The module uses the same [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) version number.
+p(note).The module uses the same [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) version number.
 
 h2. What's inside ? 
 
@@ -22,12 +22,12 @@ h2. What's inside ?
 
 h2. Installation
 
-In your `dependencies.yml` add the module
+p(note). In your @dependencies.yml@ add the module
 
 pre.    require
         - play-bootstrap-templates -> bootstraptemplates 2.1.1    
 
-As `play-bootstrap-templates` is not in the Play! Repository, add a new repository in `dependencies.yml`
+p(note). As `play-bootstrap-templates` is not in the Play! Repository, add a new repository in `dependencies.yml`
 
             
 pre.    - github-lbo:
@@ -37,43 +37,41 @@ pre.    - github-lbo:
             - play-bootstrap-templates -> *   
 
 
-Usage
------
-
-In your `index.html` file replace `#{extends 'main.html' /}` by: 
-
-`#{extends 'boot-template.html' /}` for the basic template
-
-`#{extends 'boot-template-leftmenu.html' /}` for the template with the left navbar
+h2. Usage
 
 
-To use the `About` and `Contact` links in the navbar simply add routes for them in your application: 
+p(note). In your `index.html` file replace `#{extends 'main.html' /}` by: 
 
-    GET 	    /about    	        Application.about
+@#{extends 'boot-template.html' /}@ for the basic template
+
+p(note). @#{extends 'boot-template-leftmenu.html' /}@ for the template with the left navbar
+
+
+To use the @About@ and @Contact@ links in the navbar simply add routes for them in your application: 
+
+pre.    GET 	    /about    	        Application.about
     GET 	    /contact            Application.contact
 
 
-I18N
-----
+h2. I18N
 
 Add the following messages:
 
-    title=Home
+pre.    title=Home
     navbar.home=Home
     navbar.about=About
     navbar.contact=Contact
     project.name=My Project
     footer.company=&copy; MyCompany 2012
 
-How to modify the left navbar
------------------------------
+
+h2. How to modify the left navbar
 
 * Copy the file `/modules/bootstraptemplate/app/views/tags/leftMenu.html` into `YOUR_APPLICATION/app/views/tags/leftMenu.html`
 * Modify it, enjoy !
 
 
-How to modify the top navbar
------------------------------
+h2. How to modify the top navbar
 
 * Copy the file `/modules/bootstraptemplate/app/views/tags/navbar.html` into `YOUR_APPLICATION/app/views/tags/navbar.html`
 * Modify it, enjoy !  
