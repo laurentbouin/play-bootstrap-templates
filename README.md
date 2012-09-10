@@ -12,8 +12,8 @@ The module uses the same [Bootstrap for Twitter](http://twitter.github.com/boots
 What's inside ? 
 ---------------
 
-* Bootstrap for Twitter Version 2.1.1
-* JQuery - latest version
+* [Bootstrap for Twitter](http://twitter.github.com/bootstrap/) Version 2.1.1
+* [JQuery](http://jquery.com) - latest version
 * Two templates for your Play! applications:
 
 ###Basic template
@@ -22,19 +22,40 @@ What's inside ?
 
 ###Template with left menu
 
-![template](https://github.com/laurentbouin/play-bootstrap-templates/raw/master/documentation/img/template-leftMenu.png)
+![template-leftMenu](https://github.com/laurentbouin/play-bootstrap-templates/raw/master/documentation/img/template-leftMenu.png)
 
 Installation
 ------------
 
+In your `dependencies.yml` add the module
+
+    require
+        - play-bootstrap-templates -> bootstraptemplates 2.1.1    
+
+As `play-bootstrap-templates` is not in the Play! Repository, add a new repository in `dependencies.yml`
+
+            
+    - github-lbo:
+        type:       http
+        artifact:   "http://cloud.github.com/downloads/laurentbouin/play-bootstrap-templates/[module]-[revision].[ext]"
+        contains:
+            - play-bootstrap-templates -> *   
+
+
 Usage
 -----
 
-In your `index.html` file change `#{extends 'main.html' /}` by: 
+In your `index.html` file replace `#{extends 'main.html' /}` by: 
 
 `#{extends 'boot-template.html' /}` for the basic template
 
-`#{extends 'boot-template-leftmenu.html' /}` for the basic template
+`#{extends 'boot-template-leftmenu.html' /}` for the template with the left navbar
+
+
+To use the `About` and `Contact` links in the navbar simply add routes for them in your application: 
+
+    GET 	    /about    	        Application.about
+    GET 	    /contact            Application.contact
 
 
 I18N
