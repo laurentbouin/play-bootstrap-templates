@@ -59,10 +59,10 @@ Add the following messages:
 
 pre.    title=Home
    navbar.home=Home
-       navbar.about=About
-        navbar.contact=Contact
-        project.name=My Project
-        footer.company=&copy; MyCompany 2012
+   navbar.about=About
+   navbar.contact=Contact
+   project.name=My Project
+   footer.company=&copy; MyCompany 2012
 
 
 h2. How to modify the left navbar
